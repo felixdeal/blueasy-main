@@ -1,0 +1,314 @@
+.ble{
+    height: 100vh;
+    background-image: url('images/HERO.jpg');
+    padding: 0;
+}
+
+.navigation{
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.441);
+}
+.boitePunchline{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.navbar {
+    height: 20vh;
+    color: white;
+}
+
+.elementsNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo{
+    font-weight: bolder;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.lien{
+    margin: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: bolder;
+}
+.bordureBleue{
+    border: solid 2px rgb(0, 85, 255);
+}
+.eBleu{
+    color: rgb(0, 85, 255);
+}
+.punchline{
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.441);
+    font-size: 2.5rem;
+    padding:4px;
+    margin-top: 4px;
+}
+
+.services {
+    background-color: rgb(100, 174, 254);
+    padding-top: 20px;
+}
+
+.titre {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carte{
+    color: white;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.cartes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.portofolio .lien{
+    color: black;
+}
+
+.portofolio .titre{
+    color: black;
+}
+
+.menuPort {
+    flex-direction: row;
+}
+
+.portofolio {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.espaceD {
+    margin-right: 40px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.image{
+    height: 200px;
+    width: 20%;
+    margin-left: 10px;
+    background-position: center;
+}
+
+.img1{
+    background-image: url(images/portfolio/1.png);
+}
+
+.img2{
+    background-image: url(images/portfolio/2.png);
+}
+
+.img3{
+    background-image: url(images/portfolio/3.png);
+}
+
+.img4{
+    background-image: url(images/portfolio/4.png);
+}
+
+.img5{
+    background-image: url(images/portfolio/5.png);
+}
+
+.img6{
+    background-image: url(images/portfolio/6.png);
+}
+
+.img7{
+    background-image: url(images/portfolio/7.png);
+}
+
+.img8{
+    background-image: url(images/portfolio/8.png);
+}
+
+.section p{
+    margin-top: 10px;
+    color: white;
+    padding-right: 20px;
+    padding-top: "30px";
+}
+
+.section{
+    background-color: rgb(79, 94, 94);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.droite{
+    display: flex;
+    align-items: center;
+}
+
+.twitter {
+    background-color: #4BCAFF;
+}
+
+.navbarTwitter {
+    color: black;
+}
+
+.containerTwitter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titreTwitter {
+    color: white;
+}
+
+.separationTwitter {
+    height: 3px;
+    background-color: white;
+    width: 45%;
+}
+
+.twitter img {
+    width: 3%;
+    height: 3%;
+}
+
+.twitter .margin {
+    margin-top: 25px;
+}
+
+.john {
+    background-color: #8CB3D7;
+}
+
+.imagesWho {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.imagesWho img {
+    margin-right: 30px;
+}
+
+.navbarTesti {
+    color: black;
+}
+
+.containerTesti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerTesti .titre {
+    color: black;
+    }
+
+.separationTesti {
+    height: 3px;
+    background-color: black;
+    width: 45%;
+}
+
+.testiContent {
+    color: black;
+}
+
+.containerTesti img {
+    width: 3%;
+    height: 3%;
+}
+
+.testiContent .lorem {
+    margin-top: 75px;
+}
+
+.testiContent .bleu {
+    margin-top: 20px;
+    color: #4BCAFF;
+}
+
+.contact {
+    background-color: #8CB3D7;
+    padding-bottom: 50px;
+}
+
+.form .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form .col-6 {
+    width: 49%;
+}
+
+.mb-3 input {
+    background-color: #8CB3D7;
+}
+
+.col-12 textarea {
+    background-color: #8CB3D7;
+}
+
+button {
+    border: none;
+    background-color: #4BCAFF;
+    color: white;
+}
+
+.footer {
+    background-color: #353F46;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContent .menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.separation {
+    padding-bottom: 50px;
+}
